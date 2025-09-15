@@ -25,7 +25,7 @@ while True:
         other_expenses_cost = float(input(f"Please enter the cost of the Expense:\n$"))
         expenses += other_expenses_cost
 
-        other_expenses_for = input("Are there any other expenses that you wish to enter?\nPlease enter Y for Yes or N for No.\n").upper() # makes it so that the user's input doesn't give an error for a y entry
+        other_expenses_for = input("Are there any other expenses that you wish to enter?\nPlease enter Y for Yes or N for No.\n").upper() # makes it so that the user's input doesn't give an error for a lowercase y or n entry
 
     elif other_expenses_for == "N":
         print("Processing your data......")
